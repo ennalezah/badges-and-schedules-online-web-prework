@@ -12,7 +12,8 @@ def batch_badge_creator(names_arr)
   badge_messages
 end
 
-def assign_rooms
+def assign_rooms(names_arr)
+  
 end
 
 def printer
