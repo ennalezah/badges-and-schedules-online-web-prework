@@ -16,7 +16,9 @@ def assign_rooms(names_arr
   
   
   names_arr.each do |name|
-    room = 1 
+    room = 1
+    
+    
     
     "Hello #{name}! You'll be assigned to room #{room}!"
   end
