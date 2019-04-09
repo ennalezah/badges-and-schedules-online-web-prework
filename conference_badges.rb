@@ -15,13 +15,11 @@ end
 def assign_rooms(names_arr)
   # room_assignment = []
   room = 1
-
-  names_arr.each_with_index { |name, room| room_assignment.push("Hello, #{name}! You'll be assigned to room #{room}!") if room <= 7}
   
-  # names_arr.each do |name|
-  #   room_assignment.push("Hello, #{name}! You'll be assigned to room #{room_count}!")
-  #   room_count += 1
-  # end
+  names_arr.each do |name|
+    room_assignment.push("Hello, #{name}! You'll be assigned to room #{room_count}!")
+    room_count += 1
+  end
   
   room_assignment
 end
