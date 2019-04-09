@@ -13,7 +13,7 @@ def batch_badge_creator(names_arr)
 end
 
 def assign_rooms(names_arr)
-  
+  "Hello #{name}! You'll be assigned to room #{room}"
 end
 
 def printer
