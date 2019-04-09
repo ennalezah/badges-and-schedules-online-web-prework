@@ -13,12 +13,15 @@ def batch_badge_creator(names_arr)
 end
 
 def assign_rooms(names_arr)
+  room_assignment = []
   room = 1
   
   names_arr.each do |name|
-    "Hello #{name}! You'll be assigned to room #{room}!"
+    room_assignment.push("Hello #{name}! You'll be assigned to room #{room}!")
     room += 1
   end
+  
+  room_assignment
 end
 
 def printer
