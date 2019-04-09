@@ -13,14 +13,12 @@ def batch_badge_creator(names_arr)
 end
 
 def assign_rooms(names_arr
-  
+  room = 1
   
   names_arr.each do |name|
-    room = 1
-    
-    until room == 7
-    
+    names_arr.each do |name|
     "Hello #{name}! You'll be assigned to room #{room}!"
+    room += 1
   end
 end
 
