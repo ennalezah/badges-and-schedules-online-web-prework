@@ -13,7 +13,7 @@ def batch_badge_creator(names_arr)
 end
 
 def assign_rooms(names_arr)
-  # room_assignment = []
+  room_assignment = []
   room = 1
   
   names_arr.each do |name|
