@@ -25,7 +25,10 @@ def assign_rooms(names_arr)
 end
 
 def printer(names_arr)
-  batch_badge_creator(names_arr)
-  assign_rooms(names_arr)
+  badge = batch_badge_creator(names_arr)
+  rooms = assign_rooms(names_arr)
+  
+  puts badge
+  puts rooms
   
 end 
